@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<title>Photography Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/2d4761bdc3.js" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+<body>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#about" style="text-decoration:none;"><div class="w3-bar-item w3-button w3-text-grey w3-hover-black"><i class="fas fa-user"></i>&nbsp;&nbsp;About</div></a>
+    <a href="#photos" style="text-decoration:none;"><div class="w3-bar-item w3-button w3-text-grey w3-hover-black"><i class="fas fa-camera"></i>&nbsp;&nbsp;Photos</div></a>
+    <a href="#contact" style="text-decoration:none;"><div class="w3-bar-item w3-button w3-text-grey w3-hover-black"><i class="fas fa-phone"></i>&nbsp;&nbsp;Contact</div></a>
+  </div>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+  <h1><b>LONDON PHOTOS</b></h1>
+  <p><b>By Cypher</b></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="main" id="photos"><div class="w3-row" id="myGrid" style="margin-bottom:128px"><br>
+  <div class="w3-opacity"><header class="w3-center w3-margin-bottom"><h1><b>LANDMARKS</b></h1></header></div><br>
+  <div class="w3-opacity">
+    <header class="w3-center w3-margin-bottom">
+      <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+    </header>
+    </div>
+  <div class="w3-third">
+    <img src="./img/landmarks/1.jpg" style="width:100%">
+    <img src="./img/landmarks/2.jpg" style="width:100%">
+    <img src="./img/landmarks/3.jpg" style="width:100%">
+    <img src="./img/landmarks/4.jpg" style="width:100%">
+    <img src="./img/landmarks/5.png" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="./img/landmarks/7.jpg" style="width:100%">
+    <img src="./img/landmarks/8.jpg" style="width:100%">
+    <img src="./img/landmarks/9.jpg" style="width:100%">
+    <img src="./img/landmarks/10.webp" style="width:100%">
+    <img src="./img/landmarks/11.webp" style="width:100%">
+    <img src="./img/landmarks/12.jpg" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+    <img src="./img/landmarks/13.jpg" style="width:100%">
+    <img src="./img/landmarks/14.jpg" style="width:100%">
+    <img src="./img/landmarks/15.jpg" style="width:100%">
+    <img src="./img/landmarks/16.jpg" style="width:100%">
+    <img src="./img/landmarks/17.jpeg" style="width:100%">
+    <img src="./img/landmarks/18.jpeg" style="width:100%">
+    <img src="./img/landmarks/6.jpg" style="width:100%">
+  </div></div>
+    
+    <!-- Photo Grid -->
+    <div class="main" id="photos"><div class="w3-row" id="myGrid2" style="margin-bottom:128px"><br>
+      <div class="w3-opacity"><header class="w3-center w3-margin-bottom"><h1><b>FOOD</b></h1></header></div><br>
+      <div class="w3-opacity">
+        <header class="w3-center w3-margin-bottom">
+          <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction2()">Toggle Grid Padding</button></p>
+        </header>
+        </div>
+      <div class="w3-third">
+        <img src="./img/food/1.jpg" style="width:100%">
+        <img src="./img/food/2.jpg" style="width:100%">
+        <img src="./img/food/3.jpg" style="width:100%">
+        <img src="./img/food/4.jpg" style="width:100%">
+        <img src="./img/food/5.jpg" style="width:100%">
+        <img src="./img/food/6.jpg" style="width:100%">
+      </div>
+    
+      <div class="w3-third">
+        <img src="./img/food/7.jpg" style="width:100%">
+        <img src="./img/food/8.jpg" style="width:100%">
+        <img src="./img/food/9.jpg" style="width:100%">
+        <img src="./img/food/10.jpg" style="width:100%">
+        <img src="./img/food/11.jpg" style="width:100%">
+      </div>
+    
+      <div class="w3-third">
+        <img src="./img/food/13.jpg" style="width:100%">
+        <img src="./img/food/14.jpg" style="width:100%">
+        <img src="./img/food/16.jpg" style="width:100%">
+        <img src="./img/food/17.jpg" style="width:100%">
+        <img src="./img/food/18.jpg" style="width:100%">
+        <img src="./img/food/12.jpg" style="width:100%">
+      </div></div>
+
+<!-- End Page Content -->
+</div>
+
+<div class="main" id="about"><div class="w3-content w3-container w3-padding-64" id="about">
+    <h3 class="w3-center">ABOUT ME</h3>
+    <p class="w3-center">I love photography</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Etiam non quam lacus suspendisse faucibus. Velit euismod in pellentesque massa placerat duis ultricies. Enim ut tellus elementum sagittis vitae et. Tempor orci eu lobortis elementum nibh. Malesuada bibendum arcu vitae elementum. A pellentesque sit amet porttitor eget. Quam lacus suspendisse faucibus interdum posuere. Pulvinar sapien et ligula ullamcorper malesuada proin. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Tempus quam pellentesque nec nam aliquam sem et. Ac turpis egestas sed tempus urna. Leo urna molestie at elementum eu.</p>
+    <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <p><b><i class="fa fa-user w3-margin-right"></i>Cypher</b></p><br>
+        <img src="https://i.dlpng.com/static/png/6807466_preview.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+      </div>
+  
+      <!-- Hide this text on small devices -->
+      <div class="w3-col m6 w3-hide-small w3-padding-large">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat. Etiam non quam lacus suspendisse faucibus. Velit euismod in pellentesque massa placerat duis ultricies. Enim ut tellus elementum sagittis vitae et. Tempor orci eu lobortis elementum nibh. Malesuada bibendum arcu vitae elementum. A pellentesque sit amet porttitor eget. Quam lacus suspendisse faucibus interdum posuere. Pulvinar sapien et ligula ullamcorper malesuada proin. Ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Tempus quam pellentesque nec nam aliquam sem et.</p>
+      </div>
+    </div>
+    </div></div>
+
+    <div class="main" id="contact"><footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+    <a href="https://www.youtube.com/channel/UC0NqtrSrRh2S7fGJ2VqXGhQ" style="text-decoration: none;"><i class="fa fa-youtube"></i> - YouTube</a>
+    <a href="https://twitter.com/Cypher90213082" style="text-decoration: none;"><br><br><i class="fa fa-twitter w3-hover-opacity"></i> - Twitter</a>
+    <a href="https://www.tumblr.com/blog/cyphercoder" style="text-decoration: none;"><br><br><i class="fa fa-tumblr w3-hover-opacity"></i> - Tumblr</a>
+    <a href="https://www.linkedin.com/in/cypher-coder-586169213/" style="text-decoration: none;"><br><br><i class="fa fa-linkedin"></i> - LinkedIn</a>
+    <a href="https://www.pinterest.co.uk/cyphercoder/_saved/" style="text-decoration: none;"><br><br><i class="fa fa-pinterest"></i> - Pinterest</a>
+    <a href="https://www.instagram.com/" style="text-decoration: none;"><br><br><i class="fa fa-instagram"></i> - Instagram </a><br><br><br><br>
+      Copyright 2020 ©</a><br><br>
+    </footer></div>
+
+</body>
+</html>
